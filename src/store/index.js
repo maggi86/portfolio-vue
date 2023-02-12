@@ -119,22 +119,6 @@ export default createStore({
    project:[
     {
       id:1,
-      image2: `https://i.postimg.cc/nzcvLjnX/Screenshot-20230212-173516-Chrome.jpg`,
-      image:`https://i.postimg.cc/dQ5JdM6g/Screenshot-3.png`,
-      name:"Swamp",
-      github:"https://github.com/maggi86/nav-example",
-      netlify:"https://swamp-stardust-fc706b.netlify.app/"
-    },
-    {
-      id:2,
-      image2: `https://i.postimg.cc/Kvdr58DW/Screenshot-20230212-173530-Chrome.jpg`,
-      image:`https://i.postimg.cc/1X7PZ64y/Screenshot-4.png`,
-      name:"BMI Calculator",
-      github:"https://github.com/maggi86/BMI-calculator",
-      netlify:"https://graceful-crisp-3d45ef.netlify.app/"
-    },
-    {
-      id:3,
       image2: `https://i.postimg.cc/jjTHG39Q/Screenshot-20230212-173137-Chrome.jpg`,
       image:`https://i.postimg.cc/Y93MbTHG/Screenshot-5.png`,
       name:"Anime Boys Website",
@@ -142,12 +126,28 @@ export default createStore({
       netlify:"https://property-anime-boys.netlify.app/"
     },
     {
-      id:4,
+     id:2,
+     image2: `https://i.postimg.cc/Kvdr58DW/Screenshot-20230212-173530-Chrome.jpg`,
+     image:`https://i.postimg.cc/1X7PZ64y/Screenshot-4.png`,
+     name:"BMI Calculator",
+     github:"https://github.com/maggi86/BMI-calculator",
+     netlify:"https://graceful-crisp-3d45ef.netlify.app/"
+    },
+    {
+      id:3,
       image2: `https://i.postimg.cc/7LN3DMrv/Screenshot-20230212-173156-Chrome.jpg`,
       image:`https://i.postimg.cc/7h692y6x/Screenshot-6.png`,
       name:"M-Rings",
       github:"https://github.com/maggi86/caps-frontend",
       netlify:"https://m-jewels-324ec.web.app/"
+    },
+    {
+      id:4,
+      image2: `https://i.postimg.cc/nzcvLjnX/Screenshot-20230212-173516-Chrome.jpg`,
+      image:`https://i.postimg.cc/dQ5JdM6g/Screenshot-3.png`,
+      name:"Swamp",
+      github:"https://github.com/maggi86/nav-example",
+      netlify:"https://swamp-stardust-fc706b.netlify.app/"
     },
     {
       id:5,
@@ -159,19 +159,19 @@ export default createStore({
     },
     {
       id:6,
-      image2: `https://i.postimg.cc/fT0YkhQf/Screenshot-20230212-174012-Chrome.jpg`,
-      image:`https://i.postimg.cc/44LBTnLn/Screenshot-7.png`,
-      name:"Hex to RGB",
-      github:"https://github.com/maggi86/hextoRGB",
-      netlify:"https://sweet-chaja-308937.netlify.app/"
-    },
-    {
-      id:7,
       image2: `https://i.postimg.cc/T3gjNvk3/Screenshot-20230212-173054-Chrome.jpg`,
       image:`https://i.postimg.cc/wMGV5byD/Screenshot-1.png`,
       name:"Vue Portfolio",
       github:"https://github.com/maggi86/Vue-portfolio",
       netlify:"https://vue-portfolio-c05bf.web.app/"
+    },
+    {
+      id:7,
+      image2: `https://i.postimg.cc/fT0YkhQf/Screenshot-20230212-174012-Chrome.jpg`,
+      image:`https://i.postimg.cc/44LBTnLn/Screenshot-7.png`,
+      name:"Hex to RGB",
+      github:"https://github.com/maggi86/hextoRGB",
+      netlify:"https://sweet-chaja-308937.netlify.app/"
     },
     {
       id:8,
