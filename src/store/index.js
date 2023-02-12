@@ -5,10 +5,10 @@ export default createStore({
     people:[
       {
         id:1,
-        name: "Joel Mukanya",
-        description: "It is a pleasure to work with Meagan. She is confident and open to suggestions. Meagan has the potential to become a great programmer.",
-        title: "~ Coding Lecturer",
-        image: `https://i.postimg.cc/1Xqq4J2C/joel2.jpg`
+        name: "Brittany Bowers",
+        description: "Meagan is a hard working individual with great work ethics. She is a team player but she also works well on her own. Meagan is always open to learning new programming languages and she takes her time to understand each concept and project given to her. She will be an asset any organization.",
+        title: "~ Team Leader",
+        image: ``
       },
       {
         id:2,
@@ -20,30 +20,37 @@ export default createStore({
       {
         id:3,
         name: "Michaela Tarryn Ward",
-        description: "Meagan is a very well-mannered , smart young lady . Who always give her best and has the potential to be great.",
+        description: "Meagan is an extremely well skilled, talented and  dedicated person. She has the ability to quickly  adapt to any  new environment. She always faces any challenges with the best of her abilities. Any company would be lucky to have her.",
         title: "~ Colleague",
         image: `https://i.postimg.cc/k5yP8bk7/Micheala-2.jpg`
       },
       {
         id:4,
         name: "Abdus-Samad Charles",
-        description: "Meagan is a reliable woman who is competent in all aspects of her work, she is always full of energy and is very hardworking.",
+        description: "Meagan is a hard-working individual who accomplishes whatever she puts her mind to. She's very intuitive and loves expanding her knowledge on anything that interests her.",
         title: "~ Colleague",
         image: `https://i.postimg.cc/PfvhVPDQ/Charles-5.jpg`
       },
       {
         id:5,
-        name: "Liam Engel",
-        description: "Meagan is someone who lights up the room with her personality and charisma. She is always willing to assist and always bring positivity to the mood, to have her in a company will be a win",
-        title: "~~ Colleague",
-        image:`https://i.postimg.cc/ZYvTvX57/Liam.png`
+        name: "Daniel James Fredericks",
+        description: "Meagan is smart, talented, creative and is a delight to work with. She is an absolute star in the workplace and has an amazing character. I believe that she has a bright future ahead of her and that she would be able to add value to any team that is lucky enough to have her be apart of",
+        title: "~ Colleague",
+        image:`https://i.postimg.cc/3NFSbSyv/Daniel-3.jpg`
       },
       {
         id:6,
         name: "Ra'ees Benny",
-        description: "Meagan is a great person to work with and be around with. When we were in a 4 person group she always brought the best out of all of us and that helped us finished the project. She is a great asset to have on a team and as a friend.",
-        title: "~~ Colleague",
+        description: "Meagan is a comfortable person to be around and to work with. We did a project together and while doing the project she always kept the mood alive. It is never boring when she is around. She is a hard-worker, has excellent front-end skills, good communication, and works well in a team. Meagan will be a great value to ant company or group you put her in.",
+        title: "~ Colleague",
         image:`https://i.postimg.cc/FKdBWwX8/Raees-2.jpg`
+      },
+      {
+        id:7,
+        name: "Ricardo Ronan Moses",
+        description: "Meagan is a great listener and is always present and focused. Her style of design is unique and she adapts very well. The ability that she has to persevere is one of her stand out qualities and it is something that i really respect about her character",
+        title: "~ Colleague",
+        image: `https://i.postimg.cc/9Mk4GCX8/Ricardo-2-1-300x300.jpg`
       }
     ],
     resume: {
@@ -112,34 +119,39 @@ export default createStore({
    project:[
     {
       id:1,
-      image:`https://i.postimg.cc/C1Xn4HS3/Screenshot-2022-05-11-115811.png`,
+      image2: `https://i.postimg.cc/nzcvLjnX/Screenshot-20230212-173516-Chrome.jpg`,
+      image:`https://i.postimg.cc/dQ5JdM6g/Screenshot-3.png`,
       name:"Swamp",
       github:"https://github.com/maggi86/nav-example",
       netlify:"https://swamp-stardust-fc706b.netlify.app/"
     },
     {
       id:2,
-      image:`https://i.postimg.cc/cJKscqCJ/Screenshot-2022-07-21-101213.png`,
+      image2: `https://i.postimg.cc/Kvdr58DW/Screenshot-20230212-173530-Chrome.jpg`,
+      image:`https://i.postimg.cc/1X7PZ64y/Screenshot-4.png`,
       name:"BMI Calculator",
       github:"https://github.com/maggi86/BMI-calculator",
       netlify:"https://graceful-crisp-3d45ef.netlify.app/"
     },
     {
       id:3,
-      image:`https://i.postimg.cc/8z782RSK/Screenshot-2022-07-21-110835.png`,
+      image2: `https://i.postimg.cc/jjTHG39Q/Screenshot-20230212-173137-Chrome.jpg`,
+      image:`https://i.postimg.cc/Y93MbTHG/Screenshot-5.png`,
       name:"Anime Boys Website",
       github:"https://github.com/maggi86/PropertyList",
       netlify:"https://property-anime-boys.netlify.app/"
     },
     {
       id:4,
-      image:`https://i.postimg.cc/rmtgdMyk/Screenshot-2022-09-14-101905.png`,
+      image2: `https://i.postimg.cc/7LN3DMrv/Screenshot-20230212-173156-Chrome.jpg`,
+      image:`https://i.postimg.cc/7h692y6x/Screenshot-6.png`,
       name:"M-Rings",
       github:"https://github.com/maggi86/caps-frontend",
       netlify:"https://m-jewels-324ec.web.app/"
     },
     {
       id:5,
+      image2: `https://i.postimg.cc/bY5QzwWv/Screenshot-20230212-175245-Chrome.jpg`,
       image:`https://i.postimg.cc/XJCdmDHj/Screenshot-2022-07-21-111110.png`,
       name:"Wig Nation",
       github:"https://github.com/maggi86/wigs",
@@ -147,10 +159,27 @@ export default createStore({
     },
     {
       id:6,
-      image:`https://i.postimg.cc/yxHngwYk/Screenshot-2022-07-21-161915.png`,
+      image2: `https://i.postimg.cc/fT0YkhQf/Screenshot-20230212-174012-Chrome.jpg`,
+      image:`https://i.postimg.cc/44LBTnLn/Screenshot-7.png`,
       name:"Hex to RGB",
       github:"https://github.com/maggi86/hextoRGB",
       netlify:"https://sweet-chaja-308937.netlify.app/"
+    },
+    {
+      id:7,
+      image2: `https://i.postimg.cc/T3gjNvk3/Screenshot-20230212-173054-Chrome.jpg`,
+      image:`https://i.postimg.cc/wMGV5byD/Screenshot-1.png`,
+      name:"Vue Portfolio",
+      github:"https://github.com/maggi86/Vue-portfolio",
+      netlify:"https://vue-portfolio-c05bf.web.app/"
+    },
+    {
+      id:8,
+      image2: `https://i.postimg.cc/RFFHBkTf/Screenshot-20230212-174209-Chrome.jpg`,
+      image:`https://i.postimg.cc/tCsDRywk/Screenshot-2.png`,
+      name:"RM-hoodies",
+      github:"https://github.com/maggi86/rm-hoodies",
+      netlify:"https://vue-rm-hoodies.web.app/"
     }
    ]
   },
