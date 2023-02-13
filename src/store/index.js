@@ -15,6 +15,7 @@ export default createStore({
         name: "Bulelani skhikhi",
         description: "I've had the pleasure to see Meagan do her work, she is very determined and has an intoxicating energy she puts herself in her work and the environment around her. i would highly recommend her.",
         title: "~ Colleague",
+        images: `https://i.postimg.cc/FHc17cS8/Bulelani-2-removebg-preview.png`,
         image: `https://i.postimg.cc/yxYGH3G8/Bulelani-2.jpg`
       },
       {
@@ -22,6 +23,7 @@ export default createStore({
         name: "Michaela Tarryn Ward",
         description: "Meagan is an extremely well skilled, talented and  dedicated person. She has the ability to quickly  adapt to any  new environment. She always faces any challenges with the best of her abilities. Any company would be lucky to have her.",
         title: "~ Colleague",
+        images: `https://i.postimg.cc/wxhWcbpj/Micheala-2-removebg-preview.png`,
         image: `https://i.postimg.cc/k5yP8bk7/Micheala-2.jpg`
       },
       {
@@ -29,6 +31,7 @@ export default createStore({
         name: "Abdus-Samad Charles",
         description: "Meagan is a hard-working individual who accomplishes whatever she puts her mind to. She's very intuitive and loves expanding her knowledge on anything that interests her.",
         title: "~ Colleague",
+        images: `https://i.postimg.cc/NfKKvZjg/Charles-5-removebg-preview.png`,
         image: `https://i.postimg.cc/PfvhVPDQ/Charles-5.jpg`
       },
       {
@@ -36,6 +39,7 @@ export default createStore({
         name: "Daniel James Fredericks",
         description: "Meagan is smart, talented, creative and is a delight to work with. She is an absolute star in the workplace and has an amazing character. I believe that she has a bright future ahead of her and that she would be able to add value to any team that is lucky enough to have her be apart of",
         title: "~ Colleague",
+        images: `https://i.postimg.cc/RV2NSGWw/Daniel-3-removebg-preview.png`,
         image:`https://i.postimg.cc/3NFSbSyv/Daniel-3.jpg`
       },
       {
@@ -43,6 +47,7 @@ export default createStore({
         name: "Ra'ees Benny",
         description: "Meagan is a comfortable person to be around and to work with. We did a project together and while doing the project she always kept the mood alive. It is never boring when she is around. She is a hard-worker, has excellent front-end skills, good communication, and works well in a team. Meagan will be a great value to ant company or group you put her in.",
         title: "~ Colleague",
+        images: `https://i.postimg.cc/nrY0FMkD/Raees-2-removebg-preview.png`,
         image:`https://i.postimg.cc/FKdBWwX8/Raees-2.jpg`
       },
       {
@@ -50,6 +55,7 @@ export default createStore({
         name: "Ricardo Ronan Moses",
         description: "Meagan is a great listener and is always present and focused. Her style of design is unique and she adapts very well. The ability that she has to persevere is one of her stand out qualities and it is something that i really respect about her character",
         title: "~ Colleague",
+        images: `https://i.postimg.cc/0jqV17pv/Ricardo-1-removebg-preview.png`,
         image: `https://i.postimg.cc/9Mk4GCX8/Ricardo-2-1-300x300.jpg`
       }
     ],

@@ -1,4 +1,5 @@
 <template>
+<div class="projects">
     <div class="container" id="project">
         <div class="row mx-auto w-100">
             <div class="card mx-auto m-4" v-for="project in projects" :key="project">
@@ -21,7 +22,7 @@
                         
                     </div>
                 </div>
-                <div class="col pt-1 pb-1 ">
+                <div class="col pt-1 pb-1">
                     <div class="row" id="row3">
                         <div class="details">
                             <h3>{{ project.name }}</h3>
@@ -37,6 +38,7 @@
         </div>
         </div>
     </div>
+</div>
 </template>
 
 
@@ -83,21 +85,41 @@ a {
 .card {
     height: 370px;
     width: 370px;
-    
+    background: linear-gradient(to top right, rgb(0, 0, 0), var(--color-dark), rgb(0, 0, 0) );
+    border-width:0px;
 }
 
 .image1 {
     width: 300px;
     height: 140px;
     border-bottom-right-radius: 10%;
-    border-width: 1px;
-    border-color: white;
 }
-
+.projects{
+    background-color: #040303;
+    
+}
 p {
     width: 200px;
     color: pink;
     font-size:12px;
+}
+
+img {
+  --s: 150px;   /* the size of the image */
+  --b: 14px;     /* the border thickness*/
+  --g: 15px;    /* the gap */
+
+  
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s)/2) solid rgba(0, 0, 0, 0.393);
+  outline-offset: calc(var(--s)/-2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+img:hover {
+  outline: var(--b);
+  outline-offset: var(--g);
 }
 
 h3 {
@@ -107,11 +129,10 @@ h3 {
 }
 
 #row3 {
-    background-color: white;
     background: linear-gradient(to top right, rgba(0, 0, 0, 0.655), var(--color-dark));
     border-top-right-radius: 40%;
     height: 100px;
-    width: 150px;
+    width: 146px;
 }
 
 #row2 {
@@ -120,9 +141,6 @@ h3 {
     background: linear-gradient(to bottom left, rgba(0, 0, 0, 0.655), var(--color-dark));
 }
 
-.col {
-    background-color: var(--color-black);
-}
 
 .details {
     width: 200px;
@@ -140,7 +158,6 @@ h3 {
     height: 250px;
     width: 150px;
     border-top-left-radius: 10%;
-    border-width: 1px;
-    border-color: white;
+    
 }
 </style>
