@@ -1,45 +1,49 @@
 <template>
-        <div class="container" id="project" >
-            <div class="row mx-auto" v-for="project in projects" :key="project">
-            <div class="col">
-                <div class="row" id="row">
-                    <img :src="project.image" class="image1">
+    <div class="container" id="project">
+        <div class="row">
+            <div class="card" v-for="project in projects" :key="project">
+                <div class="col pe-1 pt-1 pb-1">
+                    <div class="row" id="row">
+                        <img :src="project.image" class="image1">
+                    </div>
+                    <div class="row mt-1" id="row2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae debitis molestias dolorem
+                            totam at consequuntur odit eligendi animi amet enim architecto optio, dicta fuga doloremque
+                            delectus facere dolorum recusandae rem.
+                        </p>
+                    </div>
                 </div>
-                <div class="row" id="row2">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae debitis molestias dolorem totam at consequuntur odit eligendi animi amet enim architecto optio, dicta fuga doloremque delectus facere dolorum recusandae rem.
-                    </p>
-                </div>
-            </div>
-            <div class="col">
-                <div class="row" id="row3">
-                    <div class="details">
-                        <div class="content">
-                            <h3>{{project.name}}</h3>
-                    <a :href="project.github"><i class="bi bi-github"></i>
-                    </a>
-                    <a :href="project.netlify"><span class="iconify" data-icon="file-icons:netlify"></span>
-                    </a>
+                <div class="col pt-1 pb-1">
+                    <div class="row" id="row3">
+                        <div class="details">
+                            <div class="content">
+                                <h3>{{ project.name }}</h3>
+                                <a :href="project.github"><i class="bi bi-github"></i>
+                                </a>
+                                <a :href="project.netlify"><span class="iconify" data-icon="file-icons:netlify"></span>
+                                </a>
+                            </div>
                         </div>
+                    </div>
+                    <div class="row mt-1" id="row4">
+                        <div class="img">
+                            <img :src="project.image2" class="image2">
                         </div>
-                </div>
-                <div class="row" id="row4">
-                    <div class="img">
-                        <img :src="project.image2" class="image2">
                     </div>
                 </div>
             </div>
         </div>
-        </div>
+    </div>
 </template>
 
 
 <script>
-export default{
-    computed:{
-        projects(){
-          return this.$store.state.project;
+export default {
+    computed: {
+        projects() {
+            return this.$store.state.project;
         }
-}
+    }
 }
 </script>
 
@@ -62,54 +66,79 @@ export default{
     --size-sm: 768px;
     --size-xs: 500px;
 }
-*{
-    padding:0px;
-    margin:0px;
-}
-a{
-    text-decoration:none;
-    color:black;
-}
-.image1{
-    width:350px;
-    height:200px;
 
+* {
+    padding: 0px;
+    margin: 0px;
 }
-.row{
-    background-color: rgb(193, 207, 202);
+
+a {
+    text-decoration: none;
+    color: rgb(172, 170, 170);
 }
-p{
-    padding-left:30px;
-    padding-top:15px;
-    width:300px;
+
+.card {
+    height: 700px;
+    width: 500px;
 }
-h3{
-    padding-top:10px;
-    width:200px;
+
+.image1 {
+    width: 350px;
+    height: 200px;
+    border-bottom-right-radius: 10%;
+    border-width: 1px;
+    border-color: white;
 }
-.container{
-    height:700px;
-    width:600px;
+
+.row {}
+
+p {
+    padding-left: 30px;
+    padding-top: 15px;
+    width: 300px;
+    color: pink;
 }
-#row3{
-    background-color: #3A4E48;
+
+h3 {
+    padding-top: 10px;
+    width: 200px;
+}
+
+.container {
+    height: 700px;
+    width: 500px;
+}
+
+#row3 {
+    background-color: white;
+    background: linear-gradient(to top left, rgba(0, 0, 0, 0.655), var(--color-dark));
     border-top-right-radius: 40%;
-    height:150px;
-    width:250px;
+    height: 150px;
+    width: 200px;
 }
-#row2{
-    height:250px;
+
+#row2 {
+    height: 250px;
     border-bottom-left-radius: 40%;
 }
-.col{
-    background-color:#BEB0A7;
+
+.col {
+    background-color: var(--color-black);
 }
-.details{
-width:330px;
-height: 180px;
+
+.details {
+    width: 300px;
+    height: 180px;
+    padding-left: 10px;
+    padding-top: 30px;
+    color: white;
 }
-.image2{
-    height:280px;
-    width:150px;
+
+.image2 {
+    height: 320px;
+    width: 200px;
+    border-top-left-radius: 10%;
+    border-width: 1px;
+    border-color: white;
 }
 </style>

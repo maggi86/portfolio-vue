@@ -17,6 +17,11 @@
       </div>
     </nav>
 </template>
+<!-- bra what did you doooo -->
+u did this last night
+<!-- push this changes ill clone it and try to fix it on my end 
+ -->
+ git what did u do my terminal doesnt wanna open im whole time preessing ctrl ¬
 
 <style scoped>
 :root {
