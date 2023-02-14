@@ -4,7 +4,7 @@
         <div class="row mx-auto w-100">
             <div class="card mx-auto m-4" v-for="project in projects" :key="project">
         <div class="row mx-auto">
-                <div class="col pe-1 pt-1 pb-1 ps-1">
+                <div class="col p-1">
                     <div class="row" id="row">
                         <img :src="project.image" class="image1">
                     </div>
@@ -22,7 +22,7 @@
                         
                     </div>
                 </div>
-                <div class="col pt-1 pb-1">
+                <div class="col pt-1 pb-1 pe-1">
                     <div class="row" id="row3">
                         <div class="details">
                             <h3>{{ project.name }}</h3>
@@ -83,15 +83,15 @@ a {
 }
 
 .card {
-    height: 370px;
-    width: 370px;
+    height: 365px;
+    width: 373px;
     background: linear-gradient(to top right, rgb(0, 0, 0), var(--color-dark), rgb(0, 0, 0) );
     border-width:0px;
 }
 
 .image1 {
     width: 300px;
-    height: 140px;
+    height: 130px;
     border-bottom-right-radius: 10%;
 }
 .projects{
@@ -105,8 +105,8 @@ p {
 }
 
 img {
-  --s: 150px;   /* the size of the image */
-  --b: 14px;     /* the border thickness*/
+  --s: 130px;   /* the size of the image */
+  --b: 26px;     /* the border thickness*/
   --g: 15px;    /* the gap */
 
   
@@ -132,11 +132,11 @@ h3 {
     background: linear-gradient(to top right, rgba(0, 0, 0, 0.655), var(--color-dark));
     border-top-right-radius: 40%;
     height: 100px;
-    width: 146px;
+    width: 150px;
 }
 
 #row2 {
-    height: 210px;
+    height: 220px;
     border-bottom-left-radius: 40%;
     background: linear-gradient(to bottom left, rgba(0, 0, 0, 0.655), var(--color-dark));
 }

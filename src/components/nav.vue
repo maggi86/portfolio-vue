@@ -80,7 +80,7 @@
   background-color: transparent;
   border: none;
   color: rgb(24, 0, 0);
-  z-index: 0;
+  z-index: 1;
   transition: background-color 1s ease 0s;
 }
 
