@@ -4,11 +4,19 @@
             <div class="card mx-auto" v-for="people in peoples" :key="people">
                 <div class="row">
                     <div class="col">
-                        <h2>{{ people.name }}</h2>
-                        <img :src="people.images" class="outline">
-                        <!-- <img :src="people.image" class="image"> -->
-                        <p>"{{ people.description }}"</p>
                         <small>{{ people.title }}</small>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <img :src="people.images" class="outline">
+                        </div>
+                        <div class="row">
+                            <h2>{{ people.name }}</h2>
+                        </div>
+                    </div>
+                    <!-- <img :src="people.image" class="image"> -->
+                    <div class="col">
+                        <p>"{{ people.description }}"</p>
                     </div>
                 </div>
             </div>
@@ -29,5 +37,15 @@ export default{
 <style scoped>
 .outline{
     /* get the smoke affect */
+}
+.container{
+    width:100%;
+    height:500px;
+}
+.card{
+    height:200px;
+    width:1000px;
+    border-width:1px;
+
 }
 </style>

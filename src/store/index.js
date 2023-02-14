@@ -8,7 +8,7 @@ export default createStore({
         name: "Brittany Bowers",
         description: "Meagan is a hard working individual with great work ethics. She is a team player but she also works well on her own. Meagan is always open to learning new programming languages and she takes her time to understand each concept and project given to her. She will be an asset any organization.",
         title: "~ Team Leader",
-        image: ``
+        image: `https://i.postimg.cc/cLmQTNgQ/IMG-4259-removebg-preview.png`
       },
       {
         id:2,
