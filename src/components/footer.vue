@@ -33,5 +33,6 @@ footer{
     width:100%;
     padding-top:10px;
     letter-spacing: 3px;
+    margin-top:20px;
 }
 </style>

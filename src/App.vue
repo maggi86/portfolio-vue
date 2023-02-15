@@ -41,4 +41,5 @@ export default{
     --size-sm: 768px;
     --size-xs: 500px;
 }
+
 </style>
