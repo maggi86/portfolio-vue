@@ -1,7 +1,7 @@
 <template>
   <Navbar/>
   <router-view/>
-  <!-- <Contact/> -->
+  <Contact/>
   <Footer/>
 </template>
 
