@@ -3,19 +3,17 @@
         <div class="container" v-for="people in peoples" :key="people">
             <div class="card">
             <div class="row" id="row" >
-                    <div class="col">
+                    <div class="col ms-3 mt-2">
+                        <h2>{{ people.name }}</h2>
                         <small>{{ people.title }}</small>
                     </div>
                     <div class="col" id="middle">
                         <div class="row">
                             <img :src="people.images" class="outline">
                         </div>
-                        <div class="row" id="bottom">
-                            <h2>{{ people.name }}</h2>
-                        </div>
                     </div>
                     <!-- <img :src="people.image" class="image"> -->
-                    <div class="col">
+                    <div class="col description">
                         <p>"{{ people.description }}"</p>
                     </div>
                 </div>
@@ -45,8 +43,8 @@ export default{
     top: 40px; left: 40px; */
 }
 .container{
-    height:700px;
-    padding-top:70px;
+    height:500px;
+    padding-top:130px;
 }
 img{
     height:400px;
@@ -54,13 +52,16 @@ img{
     position: absolute;
     bottom: 10px;
     right:35%;
-    filter: drop-shadow(0 -2mm 6mm rgba(148, 147, 148, 0.584));
+    filter: drop-shadow(0 -2mm 6mm rgba(127, 130, 127, 0.836));
 }
 #row{
     width:100%;
     height:700px;
 }
-
+.description{
+    padding-top:10px;
+    width:200px;
+}
 small, h2, p{
     color:white;
 }
@@ -74,7 +75,7 @@ small, h2, p{
 .card{
     height:300px;
     width:100%;
-    border-width:3px;
+    border-width:2px;
     border-color:var(--color-gray);
     box-shadow:1px 0px 1px 1px grey;
     background-color:black
