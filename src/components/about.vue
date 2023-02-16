@@ -47,13 +47,13 @@ h1{
     margin-left:7%;
     height:300px;
     width:3px;
-    background-color: aliceblue;
+    background-color: rgba(157, 157, 157, 0.559);
 }
 hr{
     margin-left:20%;
     margin-top: 30%;;
     width:300px;
-    height:3px;
+    padding-top:3px;
     background-color: aliceblue;
 }
 .card{
