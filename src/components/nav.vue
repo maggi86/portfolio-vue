@@ -21,9 +21,9 @@
   </nav> -->
 
   <!--  -->
-  <nav class="navbar navbar-expand-lg sticky-top">
+<nav class="navbar navbar-expand-lg sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <router-link class="navbar-brand" to="/">Navbar</router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -33,7 +33,7 @@
           <router-link class="mx-2" id="home" to="/">Home</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="mx-2" id="about" to="/about">About</router-link>
+          <router-link class="mx-2" id="about" to="#about">About</router-link>
         </li>
         <li class="nav-item">
           <router-link class="mx-2" id="project" to="/projects">Projects</router-link>
@@ -90,17 +90,17 @@ a {
 }
 
 .navbar-brand {
-  /* margin-top: 10px; */
+  margin-top: 10px; 
   color: rgb(255, 0, 0);
 }
 
-.navbar-brand :hover {
+/* .navbar-brand :hover {
   color: #b119cf;
   border: 1px solid #C57ED3;
-}
+} */
 
 .navbar a:hover {
-  color: var(--color-black);
+  color: var(--color-dark);
 }
 
 .navbar a:visited {
@@ -109,18 +109,17 @@ a {
 }
 
 .navbar.solid {
-  background-color: #490D40;
+background-color: #3A4E48;
   transition: background-color 1s ease 0s;
   box-shadow: 0 0 4px grey;
 }
-
 .navbar-brand {
   color: #C57ED3;
   transition: color 1s ease 0s;
 }
 
 .navbar a {
-  color: #C57ED3;
+  color: #84d37e;
   transition: color 1s ease 0s;
 }
 </style>

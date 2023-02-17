@@ -127,6 +127,7 @@ export default createStore({
       id:1,
       image2: `https://i.postimg.cc/jjTHG39Q/Screenshot-20230212-173137-Chrome.jpg`,
       image:`https://i.postimg.cc/Y93MbTHG/Screenshot-5.png`,
+      description:"First Vue Project made using Vue, JavaScript, CSS, HTML",
       name:"Anime Boys Website",
       github:"https://github.com/maggi86/PropertyList",
       netlify:"https://property-anime-boys.netlify.app/"
@@ -135,6 +136,7 @@ export default createStore({
      id:2,
      image2: `https://i.postimg.cc/Kvdr58DW/Screenshot-20230212-173530-Chrome.jpg`,
      image:`https://i.postimg.cc/1X7PZ64y/Screenshot-4.png`,
+     description:"Made using CSS, HTML, JavaScript",
      name:"BMI Calculator",
      github:"https://github.com/maggi86/BMI-calculator",
      netlify:"https://graceful-crisp-3d45ef.netlify.app/"
@@ -143,6 +145,7 @@ export default createStore({
       id:3,
       image2: `https://i.postimg.cc/7LN3DMrv/Screenshot-20230212-173156-Chrome.jpg`,
       image:`https://i.postimg.cc/7h692y6x/Screenshot-6.png`,
+      description:"CapStone Project made using Vue, JavaScript, CSS, HTML, Node.js",
       name:"M-Rings",
       github:"https://github.com/maggi86/caps-frontend",
       netlify:"https://m-jewels-324ec.web.app/"
@@ -151,6 +154,7 @@ export default createStore({
       id:4,
       image2: `https://i.postimg.cc/nzcvLjnX/Screenshot-20230212-173516-Chrome.jpg`,
       image:`https://i.postimg.cc/dQ5JdM6g/Screenshot-3.png`,
+      description:"HTML, CSS",
       name:"Swamp",
       github:"https://github.com/maggi86/nav-example",
       netlify:"https://swamp-stardust-fc706b.netlify.app/"
@@ -159,6 +163,7 @@ export default createStore({
       id:5,
       image2: `https://i.postimg.cc/bY5QzwWv/Screenshot-20230212-175245-Chrome.jpg`,
       image:`https://i.postimg.cc/XJCdmDHj/Screenshot-2022-07-21-111110.png`,
+      description:"Team Project made using Vue, JavaScript, CSS, HTML, Node.js",
       name:"Wig Nation",
       github:"https://github.com/maggi86/wigs",
       netlify:"https://wig-nation.netlify.app/"
@@ -167,6 +172,7 @@ export default createStore({
       id:6,
       image2: `https://i.postimg.cc/T3gjNvk3/Screenshot-20230212-173054-Chrome.jpg`,
       image:`https://i.postimg.cc/wMGV5byD/Screenshot-1.png`,
+      description:"Portfolio made using Vue, JavaScript, CSS, HTML",
       name:"Vue Portfolio",
       github:"https://github.com/maggi86/Vue-portfolio",
       netlify:"https://vue-portfolio-c05bf.web.app/"
@@ -175,6 +181,7 @@ export default createStore({
       id:7,
       image2: `https://i.postimg.cc/fT0YkhQf/Screenshot-20230212-174012-Chrome.jpg`,
       image:`https://i.postimg.cc/44LBTnLn/Screenshot-7.png`,
+      description:"Made with JavaScript, CSS, HTML",
       name:"Hex to RGB",
       github:"https://github.com/maggi86/hextoRGB",
       netlify:"https://sweet-chaja-308937.netlify.app/"
@@ -183,9 +190,19 @@ export default createStore({
       id:8,
       image2: `https://i.postimg.cc/RFFHBkTf/Screenshot-20230212-174209-Chrome.jpg`,
       image:`https://i.postimg.cc/tCsDRywk/Screenshot-2.png`,
+      description:"Pair Project, where I worked at the Frontend,made using Vue, JavaScript, CSS, HTML, Node.js",
       name:"RM-hoodies",
       github:"https://github.com/maggi86/rm-hoodies",
       netlify:"https://vue-rm-hoodies.web.app/"
+    },
+    {
+      id:9,
+      image2: `https://i.postimg.cc/52tqz2BP/Screenshot-20230216-220404-Chrome.jpg`,
+      image:`https://i.postimg.cc/C1bj0B0K/Screenshot-10.png`,
+      description:"First WordPress Portfolio using Elementor",
+      name:"WordPress Portfolio",
+      github:"https://github.com/maggi86/rm-hoodies",
+      netlify:"https://dev-meaganwilliamsportfolio.pantheonsite.io/"
     }
    ]
   },

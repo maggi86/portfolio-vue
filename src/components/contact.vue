@@ -1,22 +1,23 @@
 <template>
     <div class="contact">
+        <hl></hl>
         <div class="card mx-auto">
-        <div class="container">
-            <div class="row">
+            <div class="container">
+                <div class="row">
+                    <h2 class="mx-auto mt-4 mb-3 d-flex justify-content-center">Contact Details</h2>
                     <div class="col mt-3">
-                        <h2>Contact Details</h2>
                         <div class="row mt-4">
-                            <h3>
+                            <h4>
                                 Phone:
-                            </h3>
+                            </h4>
                             <h5 class="ms-3">
                                 + 27 81 496 3622
                             </h5>
                         </div>
                         <div class="row mt-3">
-                            <h3>
+                            <h4>
                                 CV:
-                            </h3>
+                            </h4>
                             <a class="ms-3"
                             href="https://drive.google.com/uc?export=download&id=1fyfdg9sg9hOnubwN9wKrxpiGA3ZgH4Er" 
                             height="50px" 
@@ -25,22 +26,22 @@
                         </a>
                         </div>
                         <div class="row mt-3">
-                            <h3>
+                            <h4>
                                 Email:
-                            </h3>
+                            </h4>
                             <h5 class="ms-3">
                                 meaganwilliams407@gmail.com
                             </h5>
                         </div>
                         <div class="row mt-3">
-                            <h3>
+                            <h4>
                                 Socials:
-                            </h3>
-                            <div class="row mx-auto" id="socials">
-                                <a href="https://github.com/maggi86">
+                            </h4>
+                            <div class="col mx-auto mx-2" id="socials">
+                                <a class="mx-2" href="https://github.com/maggi86">
                                     <img src="https://i.postimg.cc/MGfVx0BP/211904-social-github-icon.png">
                                 </a>
-                                <a href="https://www.linkedin.com/in/meagan-williams-087920238/">
+                                <a class="mx-2" href="https://www.linkedin.com/in/meagan-williams-087920238/">
                                     <img src="https://i.postimg.cc/FH7JgbTr/5282542-linkedin-network-social-network-linkedin-logo-icon.png">
                                 </a>
                             </div>
@@ -50,27 +51,27 @@
                     <div class="col">
                         <form action="https://formspree.io/f/xoqzeokl"
                         method="POST">
-                        <div class="row">
-                            <label class="pt-3">
-                                Fullname:
-                            </label>
-                            <input type="text" name="name" placeholder="eg: Jane Doe" required/>
-                        </div>
-                        <div class="row">
-                            <label class="pt-3">
-                                Email:
-                            </label>
-                            <input type="email" name="email" placeholder="eg: janedoe@gmail.com" required/>
-                        </div>
-                        <div class="row">
-                            <label class="pt-3">
-                                Message:
-                            </label>
-                            <textarea type="text" name="message" placeholder="Oh My Word your portfolio is amazing"></textarea>
-                        </div>
-                        <div class="row m-5">
-                            <button type="submit">send</button>
-                        </div>
+                            <div class="row">
+                                <label class="pt-3">
+                                    Fullname:<span>Required</span>
+                                </label>
+                                <input type="text" name="name" placeholder="eg: Jane Doe" required/>
+                            </div>
+                            <div class="row">
+                                <label class="pt-3">
+                                    Email:<span>Required</span>
+                                </label>
+                                <input type="email" name="email" placeholder="eg: janedoe@gmail.com" required/>
+                            </div>
+                            <div class="row">
+                                <label class="pt-3">
+                                    Message:
+                                </label>
+                                <textarea type="text" name="message" placeholder="Oh My Word your portfolio is amazing"></textarea>
+                            </div>
+                            <div class="row m-5">
+                                <button type="submit">send</button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -79,24 +80,51 @@
     </div>
 </template>
 <style scoped>
+:root {
+    --color-primary: #8B9D83;
+    --color-white: #BEB0A7;
+    --color-black: #040303;
+    --color-dark: #3A4E48;
+    --color-gray: #6A7B76;
+
+    --font-lg: 64px;
+    --font-xm: 45px;
+    --font-md: 26px;
+    --font-sm: 15px;
+    --font-xs: 9px;
+
+    --size-lg: 1280px;
+    --size-md: 976px;
+    --size-sm: 768px;
+    --size-xs: 500px;
+}
+
 .contact{
    position:relative;
-    bottom:0
+    bottom:0;
+    /* background-color:black; */
 }
 .vr{
     width:2px;
     height:300px;
     padding:0px;
+    color:var(--color-gray)
 }
 .card{
-    height:700px;
+    height:550px;
     width:100%;
+    background-color: var(--color-black);
 }
 #socials{
     width:200px;
 }
+h5{
+    font-weight:400;
+    font-size:16px;
+    color:var(--color-primary)
+}
 img{
-    height:50px;
-    width:50px;
+    height:40px;
+    width:45px;
 }
 </style>

@@ -34,21 +34,20 @@
                     </div>
                     <div class="col">
                         <h1>Skill Section</h1>
-                        <div class="row">
-                            <img src="https://i.postimg.cc/76v7LCMx/211925-social-wordpress-icon.png">
-                            <img src="https://i.postimg.cc/Y91FLpbQ/367627-html-html5-icon.png">
-                            <img src="https://i.postimg.cc/bNYndfb2/4691303-mysql-icon.png">
-                            <img src="https://i.postimg.cc/4N8992b2/7422531-css3-css-file-development-icon.png">
+                        <div class="row p-2">
+                            <img class="m-2" src="https://i.postimg.cc/76v7LCMx/211925-social-wordpress-icon.png">
+                            <img class="m-2" src="https://i.postimg.cc/Y91FLpbQ/367627-html-html5-icon.png">
+                            <img class="m-2" src="https://i.postimg.cc/bNYndfb2/4691303-mysql-icon.png">
                         </div>
-                        <div class="row">
-                            <img src="https://i.postimg.cc/GtdykZ5V/8546986-node-icon.png">
-                            <img src="https://i.postimg.cc/7h9TXKv6/8666135-bootstrap-icon.png">
-                            <img src="https://i.postimg.cc/44QtJxKg/8666273-figma-icon.png">
+                        <div class="row p-2">
+                            <img class="m-2" src="https://i.postimg.cc/GtdykZ5V/8546986-node-icon.png">
+                            <img class="m-2" src="https://i.postimg.cc/7h9TXKv6/8666135-bootstrap-icon.png">
+                            <img class="m-2" src="https://i.postimg.cc/4N8992b2/7422531-css3-css-file-development-icon.png">
                         </div>
-                        <div class="row">
-                            <img src="https://i.postimg.cc/6QZ2FWsF/9035136-logo-vue-icon.png">
-                            <img src="https://i.postimg.cc/fRpSH3Px/9035061-logo-javascript-icon.png">
-                            <img src="https://i.postimg.cc/1ty1GBy4/8666252-elementor-icon.png">
+                        <div class="row p-2">
+                            <img class="m-2" src="https://i.postimg.cc/6QZ2FWsF/9035136-logo-vue-icon.png">
+                            <img class="m-2" src="https://i.postimg.cc/fRpSH3Px/9035061-logo-javascript-icon.png">
+                            <img class="m-2" src="https://i.postimg.cc/1ty1GBy4/8666252-elementor-icon.png">
                         </div>
                     </div>
                 </div>
@@ -62,12 +61,12 @@
 .about{
     margin-top:100px;
     padding-bottom: 50px;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--color-black);
 }
 
 #bg{
     background-image:
-    linear-gradient(to left, rgb(0, 0, 0), rgba(128, 128, 128, 0), rgb(0, 0, 0) ),
+    linear-gradient(to left,  var(--color-black), rgba(128, 128, 128, 0),  var(--color-black)),
     url('https://i.postimg.cc/3NBfKTF2/Meagan-2.jpg');
     width: 80%;
     background-position: center;
@@ -106,8 +105,8 @@ p{
     /* margin-bottom:50px; */
 }
 img{
-    height:100px;
-    width:130px;
+    height:80px;
+    width:110px;
     -webkit-filter: invert();
 }
 </style>

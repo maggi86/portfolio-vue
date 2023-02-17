@@ -1,17 +1,15 @@
 <template>
 <div class="projects">
-    <div class="container" id="project">
-        <div class="row mx-auto w-100">
+    <div class="container pt-4" id="project">
+        <div class="row mx-auto mx-5 w-100">
             <div class="card mx-auto m-4" v-for="project in projects" :key="project">
-        <div class="row mx-auto">
+        <div class="row mx-auto mx-5">
                 <div class="col p-1">
                     <div class="row" id="row">
                         <img :src="project.image" class="image1">
                     </div>
                     <div class="row mt-1 pb-5 ps-2" id="row2">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae debitis molestias dolorem
-                            totam at consequuntur odit eligendi animi amet enim architecto optio, dicta fuga doloremque
-                            delectus facere dolorum recusandae rem.
+                        <p>{{ project.description }}
                         </p>
                         <div class="content d-flex justify-content-center justify-content-around">
                             <a :href="project.github"><i class="bi bi-github"></i>
@@ -85,7 +83,7 @@ a {
 .card {
     height: 365px;
     width: 373px;
-    background: linear-gradient(to top right, rgb(0, 0, 0), var(--color-dark), rgb(0, 0, 0) );
+    background: black;
     border-width:0px;
 }
 
@@ -105,31 +103,26 @@ p {
 }
 
 img {
-  --s: 130px;   /* the size of the image */
-  --b: 26px;     /* the border thickness*/
-  --g: 15px;    /* the gap */
-
-  
   width: var(--s);
-  aspect-ratio: 1;
-  outline: calc(var(--s)/2) solid rgba(0, 0, 0, 0.393);
-  outline-offset: calc(var(--s)/-2);
+  /* aspect-ratio: 1; */
+  /* -webkit-filter:blur(2px); */
+    -webkit-filter: grayscale(100%);
+  /* opacity: 100%; */
   cursor: pointer;
   transition: 0.3s;
 }
 img:hover {
-  outline: var(--b);
-  outline-offset: var(--g);
+    -webkit-filter: blur(0px);
 }
 
 h3 {
     /* padding-top: 10px; */
     width: 100px;
-    font-size:18px;
+    font-size:20px;
 }
 
 #row3 {
-    background: linear-gradient(to top right, rgba(0, 0, 0, 0.655), var(--color-dark));
+    background: linear-gradient(to top right, rgba(0, 0, 0, 0.655), #3A4E48);
     border-top-right-radius: 40%;
     height: 100px;
     width: 150px;
@@ -138,7 +131,7 @@ h3 {
 #row2 {
     height: 220px;
     border-bottom-left-radius: 40%;
-    background: linear-gradient(to bottom left, rgba(0, 0, 0, 0.655), var(--color-dark));
+    background: linear-gradient(to bottom left, rgba(0, 0, 0, 0.655), #3A4E48);
 }
 
 

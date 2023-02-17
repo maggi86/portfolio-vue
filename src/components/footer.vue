@@ -1,7 +1,7 @@
 <template>
     <footer>
         <p class="d-flex justify-content-center">
-            Copyright &copyMeagan Williams
+            Copyright &copy2023 Meagan Williams
         </p>
     </footer>
 </template>
