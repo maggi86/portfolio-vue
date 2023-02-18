@@ -1,6 +1,6 @@
 <template>
 <div class="projects">
-    <div class="container pt-4" id="project">
+    <div class="container pt-4 mx-auto" id="project">
         <div class="row mx-auto mx-5 w-100">
             <div class="card mx-auto m-4" v-for="project in projects" :key="project">
         <div class="row mx-auto mx-5">
@@ -8,11 +8,11 @@
                     <div class="row" id="row">
                         <img :src="project.image" class="image1">
                     </div>
-                    <div class="row mt-1 pb-5 ps-2" id="row2">
-                        <p>{{ project.description }}
-                        </p>
+                    <div class="row mt-1 ps-2 pt-3" id="row2">
+                        <h6>{{ project.description }}
+                        </h6>
                         <div class="content d-flex justify-content-center justify-content-around">
-                            <a :href="project.github"><i class="bi bi-github"></i>
+                            <a :href="project.github"><i class="bi bi-github p-5"></i>
                                 </a>
                                 <a :href="project.netlify"><span class="iconify" data-icon="file-icons:netlify"></span>
                                 </a>
@@ -20,8 +20,8 @@
                         
                     </div>
                 </div>
-                <div class="col pt-1 pb-1 pe-1">
-                    <div class="row" id="row3">
+                <div class="col pb-1 pe-1">
+                    <div class="row pt-3" id="row3">
                         <div class="details">
                             <h3>{{ project.name }}</h3>
                         </div>
@@ -72,12 +72,14 @@ export default {
 
 * {
     padding: 0px;
-    margin: auto;
+    margin: 0px;
 }
 
 a {
     text-decoration: none;
-    color: rgb(172, 170, 170);
+    color:var(--color-white);
+    height:100px;
+    width:100px
 }
 
 .card {
@@ -89,18 +91,18 @@ a {
 
 .image1 {
     width: 300px;
-    height: 130px;
+    height: 120px;
     border-bottom-right-radius: 10%;
 }
 .projects{
     background-color: #040303;
     
 }
-p {
-    width: 200px;
-    color: pink;
-    font-size:12px;
+span{
+    height:100px;
+    width:100px;
 }
+
 
 img {
   width: var(--s);
@@ -129,22 +131,30 @@ h3 {
 }
 
 #row2 {
-    height: 220px;
+    height: 230px;
     border-bottom-left-radius: 40%;
     background: linear-gradient(to bottom left, rgba(0, 0, 0, 0.655), #3A4E48);
 }
-
+h6{
+    padding-top:20px;
+    color:var(--color-white);
+    padding-left:20px;
+}
 
 .details {
     width: 200px;
     height: 180px;
     padding-left: 10px;
-    padding-top: 30px;
-    color: white;
+    /* padding-top: 30px; */
+    color:var(--color-white);
     
 }
-.row4{
+#row4{
     height:250px;
+}
+
+#row{
+    height:120px;
 }
 
 .image2 {

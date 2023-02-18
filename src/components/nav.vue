@@ -21,6 +21,7 @@
   </nav> -->
 
   <!--  -->
+
 <nav class="navbar navbar-expand-lg sticky-top">
   <div class="container-fluid">
     <router-link class="navbar-brand" to="/">Navbar</router-link>
@@ -91,7 +92,7 @@ a {
 
 .navbar-brand {
   margin-top: 10px; 
-  color: rgb(255, 0, 0);
+  /* color: rgb(255, 0, 0); */
 }
 
 /* .navbar-brand :hover {
@@ -118,8 +119,9 @@ background-color: #3A4E48;
   transition: color 1s ease 0s;
 }
 
-.navbar a {
-  color: #84d37e;
+
+.navbar a:active {
+  color: var(--color-gray);
   transition: color 1s ease 0s;
 }
 </style>

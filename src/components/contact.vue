@@ -1,10 +1,11 @@
 <template>
     <div class="contact">
-        <hl></hl>
         <div class="card mx-auto">
+            <hr class="mx-auto"/>
+            <h2 class="mx-auto mt-2 mb-2 d-flex justify-content-center">Contact Details</h2>
+            <hr class="mx-auto mt-3"/>
             <div class="container">
                 <div class="row">
-                    <h2 class="mx-auto mt-4 mb-3 d-flex justify-content-center">Contact Details</h2>
                     <div class="col mt-3">
                         <div class="row mt-4">
                             <h4>
@@ -102,7 +103,7 @@
 .contact{
    position:relative;
     bottom:0;
-    /* background-color:black; */
+    background-color:black;
 }
 .vr{
     width:2px;
@@ -110,18 +111,32 @@
     padding:0px;
     color:var(--color-gray)
 }
+hr{
+  width:500px;
+  height: 3px;
+  background-color:var(--color-white);
+}
 .card{
     height:550px;
     width:100%;
     background-color: var(--color-black);
 }
+#col{
+    background-color:var(--color-primary)
+}
+h4{
+    color: var(--color-white);
+}
 #socials{
     width:200px;
+}
+h2{
+    color:var(--color-primary)
 }
 h5{
     font-weight:400;
     font-size:16px;
-    color:var(--color-primary)
+    color:var(--color-white)
 }
 img{
     height:40px;

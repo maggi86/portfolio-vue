@@ -27,9 +27,9 @@
                     </div>
                 </div>
             </div>
-            <div class="card mt-5 p-5">
+            <div class="card mt-5">
                 <div class="row">
-                    <div class="col">
+                    <div class="col mx-auto p-5 s-5" id="col">
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, ad ex quaerat eos sequi culpa, aliquid facere dicta dignissimos reprehenderit in. Explicabo ex, mollitia nam esse nostrum harum distinctio accusantium nulla iusto eveniet tenetur nisi. Pariatur nisi earum voluptatem optio cumque. Aliquam, ullam? Repudiandae, soluta? Accusantium officiis porro sit! Saepe temporibus praesentium tempore unde! Nam autem placeat architecto quae, quos perferendis nulla. Veritatis exercitationem ea debitis beatae itaque ad doloribus, maxime facere quis optio assumenda quibusdam aliquid voluptatum, sapiente libero ipsa sed deserunt dolorum? Dolorem incidunt deleniti quia placeat nisi consequuntur ut similique animi accusamus optio! Assumenda eaque quae natus?</p>
                     </div>
                     <div class="col">
@@ -96,6 +96,13 @@ p{
     padding-top:3px;
     background-color: aliceblue;
 } */
+#col{
+    background-image:linear-gradient(to right,   var(--color-dark),  var(--color-dark),  var(--color-dark), var(--color-black));
+    
+}
+.col{
+    padding-left:50px;
+}
 .card{
     background-color: rgba(237, 222, 222, 0);
     border-width:4px;
