@@ -24,7 +24,7 @@
 
 <nav class="navbar navbar-expand-lg sticky-top">
   <div class="container-fluid">
-    <router-link class="navbar-brand" to="/">Navbar</router-link>
+    <router-link class="navbar-brand" to="/"></router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -34,7 +34,7 @@
           <router-link class="mx-2" id="home" to="/">Home</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="mx-2" id="about" to="#about">About</router-link>
+          <router-link class="mx-2" id="about" to="/about">About</router-link>
         </li>
         <li class="nav-item">
           <router-link class="mx-2" id="project" to="/projects">Projects</router-link>
@@ -46,7 +46,8 @@
           <router-link class="mx-2" id="testimonial" to="/testimonial">Testimonial</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="mx-2" id="contact" to="/">Contact</router-link>
+          <a href="#contact">Contact</a>
+          <!-- <router-link class="mx-2" id="contact" to="/">Contact</router-link> -->
         </li>
       </ul>
     </div>

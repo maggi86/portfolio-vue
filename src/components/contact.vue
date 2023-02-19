@@ -1,5 +1,5 @@
 <template>
-    <div class="contact">
+    <div id="contact" class="contact">
         <div class="card mx-auto">
             <hr class="mx-auto"/>
             <h2 class="mx-auto mt-2 mb-2 d-flex justify-content-center">Contact Details</h2>
@@ -70,8 +70,8 @@
                                 </label>
                                 <textarea type="text" name="message" placeholder="Oh My Word your portfolio is amazing"></textarea>
                             </div>
-                            <div class="row m-5">
-                                <button type="submit">send</button>
+                            <div class="row mt-5 mx-auto d-flex justify-content-center">
+                                <button type="submit">Send</button>
                             </div>
                         </form>
                     </div>
@@ -124,18 +124,51 @@ hr{
 #col{
     background-color:var(--color-primary)
 }
+label{
+    color:var(--color-white)
+}
+span{
+    color:var(--color-gray);
+    padding-left: 5px;
+    font-size:14px;
+    font-style: italic;
+    /* padding-bottom:50px; */
+}
 h4{
     color: var(--color-white);
+}
+input{
+    height:40px;
+    width:100%;
+    border-radius: 10px;
+    border-color:black;
+}
+textarea{
+    border-radius:10px;
+    border-color:black;
 }
 #socials{
     width:200px;
 }
+button{
+width:200px;
+height:40px;
+border-radius:50px;
+font-size:20px;
+font-weight:bold;
+}
+button:hover{
+    -webkit-filter: invert(100%);
+}
 h2{
-    color:var(--color-primary)
+    color: white;
 }
 h5{
     font-weight:400;
     font-size:16px;
+    color:var(--color-white)
+}
+a{
     color:var(--color-white)
 }
 img{

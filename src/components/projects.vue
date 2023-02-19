@@ -1,42 +1,42 @@
 <template>
-<div class="projects">
-    <div class="container pt-4 mx-auto" id="project">
-        <div class="row mx-auto mx-5 w-100">
-            <div class="card mx-auto m-4" v-for="project in projects" :key="project">
-        <div class="row mx-auto mx-5">
-                <div class="col p-1">
-                    <div class="row" id="row">
-                        <img :src="project.image" class="image1">
-                    </div>
-                    <div class="row mt-1 ps-2 pt-3" id="row2">
-                        <h6>{{ project.description }}
-                        </h6>
-                        <div class="content d-flex justify-content-center justify-content-around">
-                            <a :href="project.github"><i class="bi bi-github p-5"></i>
-                                </a>
-                                <a :href="project.netlify"><span class="iconify" data-icon="file-icons:netlify"></span>
-                                </a>
+    <div class="projects">
+        <div class="container pt-4 mx-auto" id="project">
+            <div class="row mx-auto mx-5 w-100">
+                <div class="card mx-auto m-5" v-for="project in projects" :key="project">
+                    <div class="row mx-auto mx-5">
+                        <div class="col p-1">
+                            <div class="row" id="row">
+                                <img :src="project.image" class="image1" id="image">
+                            </div>
+                            <div class="row mt-1 ps-2 pt-3" id="row2">
+                                <h6>{{ project.description }}
+                                </h6>
+                                <div class="content d-flex justify-content-center justify-content-around">
+                                    <a :href="project.github"><i class="bi bi-github p-5"></i>
+                                    </a>
+                                    <a :href="project.netlify"><span class="iconify" data-icon="file-icons:netlify"></span>
+                                    </a>
+                                </div>
+
+                            </div>
                         </div>
-                        
-                    </div>
-                </div>
-                <div class="col pb-1 pe-1">
-                    <div class="row pt-3" id="row3">
-                        <div class="details">
-                            <h3>{{ project.name }}</h3>
-                        </div>
-                    </div>
-                    <div class="row mt-1" id="row4">
-                        <div class="img">
-                            <img :src="project.image2" class="image2">
+                        <div class="col mt-1 pb-1 pe-1">
+                            <div class="row pt-3" id="row3">
+                                <div class="details">
+                                    <h3>{{ project.name }}</h3>
+                                </div>
+                            </div>
+                            <div class="row mt-1" id="row4">
+                                <div class="img">
+                                    <img :src="project.image2" class="image2" id="image">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
     </div>
-</div>
 </template>
 
 
@@ -77,16 +77,16 @@ export default {
 
 a {
     text-decoration: none;
-    color:var(--color-white);
-    height:100px;
-    width:100px
+    color: var(--color-white);
+    height: 100px;
+    width: 100px
 }
 
 .card {
     height: 365px;
     width: 373px;
     background: black;
-    border-width:0px;
+    border-width: 0px;
 }
 
 .image1 {
@@ -94,33 +94,36 @@ a {
     height: 120px;
     border-bottom-right-radius: 10%;
 }
-.projects{
+
+.projects {
     background-color: #040303;
-    
+
 }
-span{
-    height:100px;
-    width:100px;
+
+span {
+    height: 100px;
+    width: 100px;
 }
 
 
 img {
-  width: var(--s);
-  /* aspect-ratio: 1; */
-  /* -webkit-filter:blur(2px); */
+    width: var(--s);
+    /* aspect-ratio: 1; */
+    /* -webkit-filter:blur(2px); */
     -webkit-filter: grayscale(100%);
-  /* opacity: 100%; */
-  cursor: pointer;
-  transition: 0.3s;
+    /* opacity: 100%; */
+    cursor: pointer;
+    transition: 0.3s;
 }
-img:hover {
+
+image:hover {
     -webkit-filter: blur(0px);
 }
 
 h3 {
     /* padding-top: 10px; */
     width: 100px;
-    font-size:20px;
+    font-size: 20px;
 }
 
 #row3 {
@@ -135,10 +138,11 @@ h3 {
     border-bottom-left-radius: 40%;
     background: linear-gradient(to bottom left, rgba(0, 0, 0, 0.655), #3A4E48);
 }
-h6{
-    padding-top:20px;
-    color:var(--color-white);
-    padding-left:20px;
+
+h6 {
+    padding-top: 20px;
+    color: var(--color-white);
+    padding-left: 20px;
 }
 
 .details {
@@ -146,21 +150,26 @@ h6{
     height: 180px;
     padding-left: 10px;
     /* padding-top: 30px; */
-    color:var(--color-white);
-    
-}
-#row4{
-    height:250px;
+    color: var(--color-white);
+
 }
 
-#row{
-    height:120px;
+#row4 {
+    height: 250px;
+}
+
+#row {
+    height: 120px;
 }
 
 .image2 {
     height: 250px;
     width: 150px;
     border-top-left-radius: 10%;
-    
+
+}
+
+.card:hover #image {
+    -webkit-filter: grayscale(0%);
 }
 </style>

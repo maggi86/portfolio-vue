@@ -1,5 +1,5 @@
 <template>
-    <div class="about">
+    <div id="about">
         <div class="container pt-5 pb-5">
             <div class="card mt-5">
                 <div class="row ms-5">
@@ -58,8 +58,8 @@
 
 
 <style scoped>
-.about{
-    margin-top:100px;
+#about{
+    /* margin-top:100px; */
     padding-bottom: 50px;
     background-color: var(--color-black);
 }
@@ -76,7 +76,7 @@ p{
     width:400px;
 }
 h1{
-    
+    color:white;
     font-size: 50px;
 }
 /* .vl{
