@@ -81,14 +81,14 @@
   height: 60px;
   background-color: transparent;
   border: none;
-  color: rgb(24, 0, 0);
+  color:var(--color-gray);
   z-index: 1;
   transition: background-color 1s ease 0s;
 }
 
 a {
   text-decoration: none;
-  color: var(--color-black);
+  color: var(--color-gray);
 }
 
 .navbar-brand {
@@ -102,7 +102,7 @@ a {
 } */
 
 .navbar a:hover {
-  color: var(--color-dark);
+  color: var(--color-primary);
 }
 
 .navbar a:visited {
@@ -112,6 +112,7 @@ a {
 
 .navbar.solid {
 background-color: #3A4E48;
+color:var(--color-black);
   transition: background-color 1s ease 0s;
   box-shadow: 0 0 4px grey;
 }

@@ -21,6 +21,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+*{
+  background-color:var(--color-black)
+}
 /* .home{
   background-image: url("https://i.postimg.cc/nccGq8FQ/Video-Capture-20221008-134929-removebg-preview.png");
 } */
