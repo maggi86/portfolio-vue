@@ -32,7 +32,7 @@ export default createStore({
         description: "Meagan is an extremely well skilled, talented and  dedicated person. She has the ability to quickly  adapt to any  new environment. She always faces any challenges with the best of her abilities. Any company would be lucky to have her.",
         title: "~ Colleague",
         images: `https://i.postimg.cc/wxhWcbpj/Micheala-2-removebg-preview.png`,
-        image: 
+        image: ``
       },
       {
         id:5,
