@@ -1,16 +1,14 @@
 <template>
   <div class="home">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <h1>
-            MEAGAN WILLIAMS
-          </h1>
-        </div>
-        <div class="col me-auto">
-          <img src="https://i.postimg.cc/3NBfKTF2/Meagan-2.jpg">
-        </div>
-    </div>
+      <div class="card" id="first">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure est suscipit quos incidunt inventore similique qui distinctio vel, voluptas natus dicta officia, accusamus nam modi eveniet dignissimos deserunt corrupti commodi.
+        </p>
+      </div>
+      <div class="col" id="!first">
+        
+      </div>
   </div>
  </div> 
 </template>
@@ -21,9 +19,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-*{
-  background-color:var(--color-black)
-}
+
 /* .home{
   background-image: url("https://i.postimg.cc/nccGq8FQ/Video-Capture-20221008-134929-removebg-preview.png");
 } */
@@ -40,26 +36,17 @@ img{
   filter: blur(7px);
 } */ 
 .container-fluid{
-  background-color:rgb(62, 61, 61);
+  /* background-color:rgb(62, 61, 61); */
   height:700px;
+  background-image: url("https://i.postimg.cc/ydbMHfK7/download.jpg");
+  background-size:cover;
   width:100%;
 }
-.col{
-  /* background-color:rgba(122, 122, 164, 0.137); */
-  /* max-width: 300px; */
-
+.card{
+  /* backdrop-filter: blur(100%); */
+  -webkit-filter: blur(50px);
+  background-color: rgba(240, 248, 255, 0);
+  height:100%;
+  width:50%;
 }
-.row{
-  width:100%;
-  /* background-color: rgba(253, 255, 253, 0); */
-  /* background-image: ur("https://i.postimg.cc/nccGq8FQ/Video-Capture-20221008-134929-removebg-preview.png"); */
-  /* background-repeat: no-repeat;
-  background-size: cover; */
-}
-/* .col-3{
-  background-color: rgb(128, 0, 60);
-}
-.row-6{
-  background-color: rgb(128, 100, 0);
-} */
 </style>

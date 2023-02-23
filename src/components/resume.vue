@@ -1,5 +1,8 @@
 <template>
-    <div class="resume">
+    <div class="resume pt-4">
+        <hr class="mx-auto"/>
+            <h2 class="mx-auto mt-2 mb-2 d-flex justify-content-center">Resume</h2>
+            <hr class="mx-auto mt-3"/>
         <div class="container">
             <div class="row ms-5 d-flex justify-content-center">
                 <div class="card left m-3">
@@ -200,6 +203,14 @@ p{
 margin-top:5px;
     color:var(--color-white);
 
+}
+hr{
+  width:500px;
+  height: 3px;
+  background-color:var(--color-white);
+}
+h2{
+    color: white;
 }
 h4{
     font-size:20px;

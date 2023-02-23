@@ -29,8 +29,9 @@
             </div>
             <div class="card mt-5">
                 <div class="row">
-                    <div class="col mx-auto p-5 s-5" id="col">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, ad ex quaerat eos sequi culpa, aliquid facere dicta dignissimos reprehenderit in. Explicabo ex, mollitia nam esse nostrum harum distinctio accusantium nulla iusto eveniet tenetur nisi. Pariatur nisi earum voluptatem optio cumque. Aliquam, ullam? Repudiandae, soluta? Accusantium officiis porro sit! Saepe temporibus praesentium tempore unde! Nam autem placeat architecto quae, quos perferendis nulla. Veritatis exercitationem ea debitis beatae itaque ad doloribus, maxime facere quis optio assumenda quibusdam aliquid voluptatum, sapiente libero ipsa sed deserunt dolorum? Dolorem incidunt deleniti quia placeat nisi consequuntur ut similique animi accusamus optio! Assumenda eaque quae natus?</p>
+                    <div class="col mx-auto p-5 s-5" id="img">
+                        <!-- <img id="img" src="https://i.postimg.cc/gjCSNjFW/Fantasy-landscape-Landscape-Nature.jpg"> -->
+                        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, ad ex quaerat eos sequi culpa, aliquid facere dicta dignissimos reprehenderit in. Explicabo ex, mollitia nam esse nostrum harum distinctio accusantium nulla iusto eveniet tenetur nisi. Pariatur nisi earum voluptatem optio cumque. Aliquam, ullam? Repudiandae, soluta? Accusantium officiis porro sit! Saepe temporibus praesentium tempore unde! Nam autem placeat architecto quae, quos perferendis nulla. Veritatis exercitationem ea debitis beatae itaque ad doloribus, maxime facere quis optio assumenda quibusdam aliquid voluptatum, sapiente libero ipsa sed deserunt dolorum? Dolorem incidunt deleniti quia placeat nisi consequuntur ut similique animi accusamus optio! Assumenda eaque quae natus?</p> -->
                     </div>
                     <div class="col">
                         <h1>Skill Section</h1>
@@ -58,6 +59,25 @@
 
 
 <style scoped>
+:root {
+    --color-primary: #346120;
+    --color-white: #d3cfcc;
+    --color-black: #040303;
+    --color-dark: #214a3d;
+    --color-gray: #737373;
+
+    --font-lg: 64px;
+    --font-xm: 45px;
+    --font-md: 26px;
+    --font-sm: 15px;
+    --font-xs: 9px;
+
+    --size-lg: 1280px;
+    --size-md: 976px;
+    --size-sm: 768px;
+    --size-xs: 500px;
+}
+
 #about{
     /* margin-top:100px; */
     padding-bottom: 50px;
@@ -74,9 +94,10 @@
 }
 p{
     width:400px;
+    color: var(--color-white);
 }
 h1{
-    color:white;
+    color:var(--color-dark);
     font-size: 50px;
 }
 /* .vl{
@@ -110,6 +131,14 @@ p{
     overflow: hidden;
     height:550px;
     /* margin-bottom:50px; */
+}
+#img{
+    background-image:
+    linear-gradient(to left,  var(--color-black), rgba(128, 128, 128, 0),  var(--color-black)),
+    url('https://i.postimg.cc/gjCSNjFW/Fantasy-landscape-Landscape-Nature.jpg');
+    height:550px;
+    width:100%;
+    -webkit-filter: invert(0%);
 }
 img{
     height:80px;

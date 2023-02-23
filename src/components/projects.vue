@@ -1,5 +1,10 @@
 <template>
     <div class="projects">
+        <div class="row" id="landing">
+        </div>
+            <hr class="mx-auto mt-5"/>
+            <h2 class="mx-auto mt-2 mb-2 d-flex justify-content-center">Projects</h2>
+            <hr class="mx-auto mt-3"/>
         <div class="container pt-4 mx-auto" id="project">
             <div class="row mx-auto mx-5 w-100">
                 <div class="card mx-auto m-5" v-for="project in projects" :key="project">
@@ -8,13 +13,13 @@
                             <div class="row" id="row">
                                 <img :src="project.image" class="image1" id="image">
                             </div>
-                            <div class="row mt-1 ps-2 pt-3" id="row2">
+                            <div class="row mt-1 ps-1 pt-3 pe-1" id="row2">
                                 <h6>{{ project.description }}
                                 </h6>
-                                <div class="content d-flex justify-content-center justify-content-around">
-                                    <a :href="project.github"><i class="bi bi-github p-5"></i>
+                                <div class="d-flex justify-content-center">
+                                    <a target="_blank" v-if="project.github != null" :href="project.github"><i class="bi bi-github p-5"></i>
                                     </a>
-                                    <a :href="project.netlify"><span class="iconify" data-icon="file-icons:netlify"></span>
+                                    <a target="_blank" :href="project.netlify"><span class="iconify" data-icon="file-icons:netlify"></span>
                                     </a>
                                 </div>
 
@@ -22,7 +27,7 @@
                         </div>
                         <div class="col mt-1 pb-1 pe-1">
                             <div class="row pt-3" id="row3">
-                                <div class="details">
+                                <div class="details ps-3">
                                     <h3>{{ project.name }}</h3>
                                 </div>
                             </div>
@@ -52,11 +57,11 @@ export default {
 
 <style scoped>
 :root {
-    --color-primary: #8B9D83;
-    --color-white: #BEB0A7;
+    --color-primary: #346120;
+    --color-white: #d3cfcc;
     --color-black: #040303;
-    --color-dark: #3A4E48;
-    --color-gray: #6A7B76;
+    --color-dark: #214a3d;
+    --color-gray: #737373;
 
     --font-lg: 64px;
     --font-xm: 45px;
@@ -79,9 +84,17 @@ a {
     text-decoration: none;
     color: var(--color-white);
     height: 100px;
-    width: 100px
+    width: 100px;
+    font-size: 30px;
 }
 
+#landing{
+    background-image: url('https://i.postimg.cc/kXLsQ0JQ/emerald-green-iso14-wallpaper.jpg');
+    background-size: cover;
+    height:500px;
+    max-width:100%;
+
+}
 .card {
     height: 365px;
     width: 373px;
@@ -104,8 +117,14 @@ span {
     height: 100px;
     width: 100px;
 }
-
-
+hr{
+  width:500px;
+  height: 3px;
+  background-color:var(--color-white);
+}
+h2{
+    color: white;
+}
 img {
     width: var(--s);
     /* aspect-ratio: 1; */
@@ -143,6 +162,8 @@ h6 {
     padding-top: 20px;
     color: var(--color-white);
     padding-left: 20px;
+    font-size: 15px;
+    letter-spacing: 1.7px;
 }
 
 .details {
@@ -172,4 +193,5 @@ h6 {
 .card:hover #image {
     -webkit-filter: grayscale(0%);
 }
+
 </style>

@@ -22,6 +22,8 @@ export default{
 *{
   padding:0;
   margin:0;
+  font-family: cursive;
+
 }
 :root {
     --color-primary: #8B9D83;
@@ -41,5 +43,7 @@ export default{
     --size-sm: 768px;
     --size-xs: 500px;
 }
-
+template{
+  background-color:black;
+}
 </style>

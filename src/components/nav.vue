@@ -34,7 +34,7 @@
           <router-link class="mx-2" id="home" to="/">Home</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="mx-2" id="about" to="/about">About</router-link>
+          <a class="mx-2" href="#about">About</a>
         </li>
         <li class="nav-item">
           <router-link class="mx-2" id="project" to="/projects">Projects</router-link>
@@ -59,11 +59,11 @@
 
 <style scoped>
 :root {
-  --color-primary: #8B9D83;
-  --color-white: #BEB0A7;
-  --color-black: #040303;
-  --color-dark: #3A4E48;
-  --color-gray: #6A7B76;
+  --color-primary: #346120;
+    --color-white: #d3cfcc;
+    --color-black: #040303;
+    --color-dark: #214a3d;
+    --color-gray: #737373;
 
   --font-lg: 64px;
   --font-xm: 45px;
@@ -101,11 +101,11 @@ a {
   border: 1px solid #C57ED3;
 } */
 
-.navbar a:hover {
-  color: var(--color-primary);
+li :hover {
+  color: var(--color-black);
 }
 
-.navbar a:visited {
+ li :visited {
   color: var(--color-grey);
   text-decoration: none;
 }

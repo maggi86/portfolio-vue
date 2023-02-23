@@ -1,9 +1,12 @@
 <template>
-    <div id="testimonial">
+    <div id="testimonial" class="test pt-4">
+        <hr class="mx-auto"/>
+            <h2 class="mx-auto mt-2 mb-2 d-flex justify-content-center">Testimonials</h2>
+            <hr class="mx-auto mt-3 mb-5"/>
         <div class="container" v-for="people in peoples" :key="people">
             <div class="card">
             <div class="row" id="row" >
-                    <div class="col ms-3 mt-2">
+                    <div class="col m-5 mt-4">
                         <h2>{{ people.name }}</h2>
                         <small>{{ people.title }}</small>
                     </div>
@@ -46,13 +49,18 @@ export default{
     height:500px;
     padding-top:130px;
 }
+hr{
+  width:500px;
+  height: 3px;
+  background-color:var(--color-white);
+}
 img{
     height:400px;
     width:450px;
     position: absolute;
     bottom: 10px;
     right:35%;
-    filter: drop-shadow(0 -2mm 6mm rgba(127, 130, 127, 0.836));
+    filter: drop-shadow(0 -1mm 5mm rgba(135, 135, 135, 0.836));
 }
 #row{
     width:100%;
@@ -85,7 +93,7 @@ small, h2, p{
 width:400px;
 }
 
-.box{
-    border-width:1px;
+h2{
+    width:300px;
 }
 </style>
