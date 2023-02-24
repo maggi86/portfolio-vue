@@ -22,7 +22,7 @@ export default{
 *{
   padding:0;
   margin:0;
-  font-family: cursive;
+  font-family: 'Tilt Neon', cursive;
 
 }
 :root {

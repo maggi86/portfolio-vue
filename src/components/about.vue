@@ -3,7 +3,7 @@
         <div class="container pt-5 pb-5">
             <div class="card mt-5">
                 <div class="row ms-5">
-                    <div class="col ms-5 mt-5 pe-5 pb-5">
+                    <div class="col ms-5 mt-4 pe-5 pb-5">
                         <h1>About Me</h1>
                         <p class="mt-4">
                             Dedicated, present, focused and intuitive, is how people would 
@@ -20,9 +20,7 @@
                         </p>
                         
                     </div>
-                    <div class="col me-5" id="bg">
-                        <div class="vl"></div>
-                        <hr/>
+                    <div class="col" id="bg">
                         <!-- <img src="https://i.postimg.cc/3NBfKTF2/Meagan-2.jpg"> -->
                     </div>
                 </div>
@@ -33,7 +31,7 @@
                         <!-- <img id="img" src="https://i.postimg.cc/gjCSNjFW/Fantasy-landscape-Landscape-Nature.jpg"> -->
                         <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, ad ex quaerat eos sequi culpa, aliquid facere dicta dignissimos reprehenderit in. Explicabo ex, mollitia nam esse nostrum harum distinctio accusantium nulla iusto eveniet tenetur nisi. Pariatur nisi earum voluptatem optio cumque. Aliquam, ullam? Repudiandae, soluta? Accusantium officiis porro sit! Saepe temporibus praesentium tempore unde! Nam autem placeat architecto quae, quos perferendis nulla. Veritatis exercitationem ea debitis beatae itaque ad doloribus, maxime facere quis optio assumenda quibusdam aliquid voluptatum, sapiente libero ipsa sed deserunt dolorum? Dolorem incidunt deleniti quia placeat nisi consequuntur ut similique animi accusamus optio! Assumenda eaque quae natus?</p> -->
                     </div>
-                    <div class="col">
+                    <div class="col mt-4">
                         <h1>Skill Section</h1>
                         <div class="row p-2">
                             <img class="m-2" src="https://i.postimg.cc/76v7LCMx/211925-social-wordpress-icon.png">
@@ -123,13 +121,14 @@ p{
 }
 .col{
     padding-left:50px;
+    /* padding-right:10px; */
 }
 .card{
     background-color: rgba(237, 222, 222, 0);
     border-width:4px;
     border-color:grey;
     overflow: hidden;
-    height:550px;
+    height:500px;
     /* margin-bottom:50px; */
 }
 #img{
@@ -144,5 +143,18 @@ img{
     height:80px;
     width:110px;
     -webkit-filter: invert();
+}
+@media screen and (max-width: 1200px) {
+
+    .card{
+        width:auto;
+        height:500px;
+    }
+}
+
+@media screen and (max-width:992px){
+    p{
+        width:500px;
+    }
 }
 </style>
