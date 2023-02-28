@@ -2,9 +2,9 @@
   <div class="home">
     <div class="container-fluid">
       <div class="card" id="first">
-        <p>
+        <!-- <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure est suscipit quos incidunt inventore similique qui distinctio vel, voluptas natus dicta officia, accusamus nam modi eveniet dignissimos deserunt corrupti commodi.
-        </p>
+        </p> -->
       </div>
       <div class="col" id="!first">
         

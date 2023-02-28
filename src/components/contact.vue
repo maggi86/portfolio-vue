@@ -6,7 +6,7 @@
             <hr class="mx-auto mt-3"/>
             <div class="container">
                 <div class="row">
-                    <div class="col mt-3">
+                    <div class="col mt-3" id="info">
                         <div class="row mt-4">
                             <h4>
                                 Phone:
@@ -174,5 +174,34 @@ a{
 img{
     height:40px;
     width:45px;
+}
+
+@media screen and (max-width:550px){
+    hr{
+        width: 300px;
+    }
+}
+@media screen and (max-width:770px){
+    #info{
+        margin-left:30px;
+    }
+    .vr{
+        display:none
+    }
+    .card{
+        height:900px;
+    }
+    input, textarea{
+        width: 400px;
+        margin:auto;
+    }
+    label{
+        margin-left:30px;
+    }
+}
+@media screen and (max-width:400px){
+    input, textarea{
+        width: 250px;
+    }
 }
 </style>

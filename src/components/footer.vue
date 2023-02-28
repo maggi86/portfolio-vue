@@ -1,7 +1,7 @@
 <template>
     <footer>
         <p class="d-flex justify-content-center">
-            Copyright &copy2023 Meagan Williams
+            Copyright &copy2023 Meagan-Portfolio
         </p>
     </footer>
 </template>
@@ -34,5 +34,11 @@ footer{
     padding-top:10px;
     letter-spacing: 3px;
     margin-top:20px;
+    /* overflow-x: hidden; */
 }
+/* @media screen and (max-width: 600px){
+    p{
+        font-size:10px;
+    }
+} */
 </style>

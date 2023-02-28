@@ -24,7 +24,7 @@ export default createStore({
         name: "Gideon Daniels",
         description: "She is creative and loves building unique frontend applications. She is particularly passionate about animations. She has the willingness to learn and passion that drives her forward to succeed in the Wed Development space. She has shown promising frontend development skills and I have no doubt she will succeed in her endeavors.",
         title: "~ Colleague",
-        images: `https://i.postimg.cc/wxhWcbpj/Micheala-2-removebg-preview.png`,
+        images: `https://i.postimg.cc/vmtRDC8N/T0-DB5-J05-D-U02-ULR82-SLW-a57588fd21d4-512-removebg-preview.png`,
         image: `https://i.postimg.cc/k5yP8bk7/Micheala-2.jpg`
       },
       {
