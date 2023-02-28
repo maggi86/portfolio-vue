@@ -7,7 +7,7 @@
             <hr class="mx-auto mt-3"/>
         <div class="container pt-4 mx-auto" id="project">
             <div class="row mx-auto mx-5 w-100">
-                <div class="card mx-auto m-5" v-for="project in projects" :key="project">
+                <a :href="project.netlify" target="_blank" class="card mx-auto m-5" v-for="project in projects" :key="project">
                     <div class="row mx-auto mx-5">
                         <div class="col p-1">
                             <div class="row" id="row">
@@ -38,7 +38,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
