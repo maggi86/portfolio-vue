@@ -34,7 +34,7 @@
           <router-link class="mx-2" id="home" to="/">Home</router-link>
         </li>
         <li class="nav-item">
-          <a class="mx-2" href="#about">About</a>
+          <a class="mx-2" href="/#about">About</a>
         </li>
         <li class="nav-item">
           <router-link class="mx-2" id="project" to="/projects">Projects</router-link>
