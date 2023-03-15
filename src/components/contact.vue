@@ -174,5 +174,6 @@ a{
 img{
     height:40px;
     width:45px;
+    filter:invert(70%)
 }
 </style>
