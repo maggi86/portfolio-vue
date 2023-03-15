@@ -2,6 +2,8 @@ import {
   createStore
 } from 'vuex'
 
+// test
+
 export default createStore({
   state: {
     people: [{
@@ -24,7 +26,7 @@ export default createStore({
         name: "Gideon Daniels",
         description: "She is creative and loves building unique frontend applications. She is particularly passionate about animations. She has the willingness to learn and passion that drives her forward to succeed in the Wed Development space. She has shown promising frontend development skills and I have no doubt she will succeed in her endeavors.",
         title: "~ Colleague",
-        images: `https://i.postimg.cc/wxhWcbpj/Micheala-2-removebg-preview.png`,
+        images: `https://i.postimg.cc/vmtRDC8N/T0-DB5-J05-D-U02-ULR82-SLW-a57588fd21d4-512-removebg-preview.png`,
         image: `https://i.postimg.cc/k5yP8bk7/Micheala-2.jpg`
       },
       {
@@ -68,8 +70,7 @@ export default createStore({
         image: `https://i.postimg.cc/FKdBWwX8/Raees-2.jpg`
       }
     ],
-    resume: {
-      resume1: [{
+    resume:[{
           id: 1,
           date: "January 2023 - Current",
           title: "Tenacious Digital",
@@ -77,58 +78,53 @@ export default createStore({
         },
         {
           id: 2,
+          date: "January 2023 - Current",
+          title: "Ignite Event Services.",
+          description: "I worked as a waiter at a Catering Company"
+        },
+        {
+          id: 3,
           date: "September 2022 - Current",
           title: "LC Studio.",
           description: "Work as an intern where I up-skill my coding abilities"
         },
         {
-          id: 3,
-          date: "2020 - 2021",
-          title: "Oude Molen Academy of Science and Technology.",
-          description: "I studied Automotive Engineering for two years in High School."
-        },
-        {
           id: 4,
-          date: "2019 - 2020",
-          title: "Oude Molen Academy of Science and Technology.",
-          description: "I studied Mechanical Engineering for a year in High School."
-        },
-        {
-          id: 5,
-          date: "2009 - 2016",
-          title: "Arcadia Primary School.",
-          description: "I attended primary school in Bonteheuwel."
-        }
-
-      ],
-
-      resume2: [{
-          id: 1,
-          date: "January 2023 - current",
-          title: "Ignite Event Services.",
-          description: "I worked as a waiter at a Catering Company"
-        },
-        {
-          id: 2,
           date: "March 2022 - September 2022",
           title: "Life Choices Academy of Coding.",
           description: "Where I started learning coding and Web Development."
         },
         {
-          id: 3,
+          id: 5,
+          date: "2020 - 2021",
+          title: "Oude Molen Academy of Science and Technology.",
+          description: "I studied Automotive Engineering for two years in High School."
+        },
+        {
+          id: 6,
           date: "2019-2021",
           title: "Oude Molen Academy of Science and Technology.",
           description: "I studied Engineering Graphics and Design( EGD ) in High school."
         },
         {
-          id: 4,
+          id: 7,
+          date: "2019 - 2020",
+          title: "Oude Molen Academy of Science and Technology.",
+          description: "I studied Mechanical Engineering for a year in High School."
+        },
+        {
+          id: 8,
           date: "2017 - 2021",
           title: "Oude Molen Academy of Science and Technology.",
           description: "Studied at High School in Pinelands and passed with a Bachalor's pass"
+        },
+        {
+          id: 9,
+          date: "2009 - 2016",
+          title: "Arcadia Primary School.",
+          description: "I attended primary school in Bonteheuwel."
         }
-
       ],
-    },
     project: [{
         id: 1,
         image2: `https://i.postimg.cc/jjTHG39Q/Screenshot-20230212-173137-Chrome.jpg`,

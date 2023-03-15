@@ -1,13 +1,13 @@
 <template>
     <div class="projects">
-        <div class="row" id="landing">
-        </div>
+        <!-- <div class="row" id="landing"> -->
+        <!-- </d3iv> -->
             <hr class="mx-auto mt-5"/>
             <h2 class="mx-auto mt-2 mb-2 d-flex justify-content-center">Projects</h2>
             <hr class="mx-auto mt-3"/>
         <div class="container pt-4 mx-auto" id="project">
             <div class="row mx-auto mx-5 w-100">
-                <div class="card mx-auto m-5" v-for="project in projects" :key="project">
+                <a :href="project.netlify" target="_blank" class="card mx-auto m-4" v-for="project in projects" :key="project">
                     <div class="row mx-auto mx-5">
                         <div class="col p-1">
                             <div class="row" id="row">
@@ -19,8 +19,8 @@
                                 <div class="d-flex justify-content-center">
                                     <a target="_blank" v-if="project.github != null" :href="project.github"><i class="bi bi-github p-5"></i>
                                     </a>
-                                    <a target="_blank" :href="project.netlify"><span class="iconify" data-icon="file-icons:netlify"></span>
-                                    </a>
+                                    <!-- <a target="_blank" :href="project.netlify"><span class="iconify" data-icon="file-icons:netlify"></span>
+                                    </a> -->
                                 </div>
 
                             </div>
@@ -38,7 +38,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -97,20 +97,26 @@ a {
 }
 .card {
     height: 365px;
-    width: 373px;
+    width: 370px;
     background: black;
     border-width: 0px;
 }
 
 .image1 {
-    width: 300px;
-    height: 120px;
+    width: 230px;
+    height: 100px;
     border-bottom-right-radius: 10%;
+}
+.image2 {
+    height: 230px;
+    width: 140px;
+    border-top-left-radius: 10%;
+
 }
 
 .projects {
     background-color: #040303;
-
+    padding-top:50px;
 }
 
 span {
@@ -129,14 +135,10 @@ img {
     width: var(--s);
     /* aspect-ratio: 1; */
     /* -webkit-filter:blur(2px); */
-    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
     /* opacity: 100%; */
     cursor: pointer;
     transition: 0.3s;
-}
-
-image:hover {
-    -webkit-filter: blur(0px);
 }
 
 h3 {
@@ -149,7 +151,7 @@ h3 {
     background: linear-gradient(to top right, rgba(0, 0, 0, 0.655), #3A4E48);
     border-top-right-radius: 40%;
     height: 100px;
-    width: 150px;
+    width: 140px;
 }
 
 #row2 {
@@ -176,22 +178,35 @@ h6 {
 }
 
 #row4 {
-    height: 250px;
+    height: 230px;
 }
 
 #row {
-    height: 120px;
-}
-
-.image2 {
-    height: 250px;
-    width: 150px;
-    border-top-left-radius: 10%;
-
+    height: 100px;
 }
 
 .card:hover #image {
-    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
+@media screen and (max-width:550px){
+    hr{
+        width:300px;
+    }
+
+}
+/* @media screen and (max-width:750px){
+    .card{
+        width:270px;
+    }
+    .image1{
+        width:160px;
+        height: 90px;
+    }
+    .image2{
+        width:100px;
+        height:190px;
+    }
+   
+} */
 </style>
