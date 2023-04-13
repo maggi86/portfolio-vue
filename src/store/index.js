@@ -2,7 +2,7 @@ import {
   createStore
 } from 'vuex'
 
-// test
+// Leigh ? you there ?+++YES, You can turn the lasptop off, im doneokay
 
 export default createStore({
   state: {
@@ -116,7 +116,7 @@ export default createStore({
           id: 8,
           date: "2017 - 2021",
           title: "Oude Molen Academy of Science and Technology.",
-          description: "Studied at High School in Pinelands and passed with a Bachalor's pass"
+          description: "Studied at High School in Pinelands and passed with a Bachelor's pass"
         },
         {
           id: 9,
