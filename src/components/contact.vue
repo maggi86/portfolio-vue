@@ -20,7 +20,7 @@
                                 CV:
                             </h4>
                             <a class="ms-3"
-                            href="https://drive.google.com/file/d/1e9tMCo5kkpiIOFbXcCUhKB7-pqNd0zn0/view?usp=sharing" 
+                            href="https://drive.google.com/file/d/1MVecN_Ch1Gxd9ILqjjwqXkzLwm1emQLY/view?usp=share_link" 
                             height="50px" 
                             with="60px" 
                             download>Download CV
